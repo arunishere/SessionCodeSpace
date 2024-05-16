@@ -30,12 +30,10 @@ If - Else
 
 
 age = float(input("Please enter the Age: "))
-
 if age >= 21:
     print("Check Passed.")
 
 elif age > 18 and age <=20:
-
     print("Kindly reach out to the Staff")
 
 else:
