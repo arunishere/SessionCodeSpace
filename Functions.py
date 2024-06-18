@@ -9,12 +9,6 @@
 '''
 
 
-
-
-
-
-
-
 # def areaFunc():
 #     print('Rectangle Area Calculator')
 #     print('=====================')
