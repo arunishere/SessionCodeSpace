@@ -8,7 +8,6 @@ class Car:
         self.model = model
         Car.Count += 1
 
-
     def className():
 
         print("We are inside the Class Car")
@@ -22,9 +21,7 @@ class Car:
         print('Model: ', self.model)
         print('Brand:', self.brand)
 
-
     def getCount():
-
         print('Total Instances: ', Car.Count)
 
 
