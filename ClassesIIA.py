@@ -51,5 +51,3 @@ person_3 = Person()
 
 person_1.setValues('Jack', 32, "Chicago")
 # print(person_1.getValues())
-
-print(person_1.age)
