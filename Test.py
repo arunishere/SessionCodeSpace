@@ -9,7 +9,7 @@ for element in elements:
     s.push(element)
 
 
-# print(s.pop())
+print(s.pop())
 
 
 # print(elements)

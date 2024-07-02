@@ -24,7 +24,6 @@ class Car:
     def getCount():
         print('Total Instances: ', Car.Count)
 
-
 car1 = Car('BMW', 'X3')
 # car1.carDetails()
 
@@ -34,5 +33,4 @@ car2 = Car('Kia', 'Seltos')
 # car2.Country
 
 car3 = Car('Volvo', 'V40')
-
 Car.getCount()

@@ -53,11 +53,9 @@ class Person:
     def getCount():
         return Person.person_count
 
-
 person_1 = Person('Jack', 32, "Chicago")
 person_2 = Person('Celene', 29, "Manchester")
 person_3 = Person('Tori', 30, "Manila")
-
 
 person_2.setLocation('Convertry')
 print(person_2.getVersion())
