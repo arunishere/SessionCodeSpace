@@ -37,15 +37,14 @@ class Manager(Employee):
 
 class Executive(Manager):
 
-
     def __init__(self, name, age, salary, managerial_pay, ex_designation):
         super().__init__(name, age, salary, managerial_pay)
         self.ex_designation = ex_designation
 
 
-    # def getData(self):
+    def getData(self):
 
-    #     print(f" Name: {self.getName()} \n Age: {self.getAge()}, \n Basic Salary: {self.getSalary()}, \n Managerial Pay: {self.getManagerPay()}, \n Total Pay:{self.getSalary() + self.getManagerPay()}, \n Executive: {self.ex_designation}")
+        print(f" Name: {self.getName()} \n Age: {self.getAge()}, \n Basic Salary: {self.getSalary()}, \n Managerial Pay: {self.getManagerPay()}, \n Total Pay:{self.getSalary() + self.getManagerPay()}, \n Executive: {self.ex_designation}")
         
 
 

@@ -31,7 +31,7 @@ class Manager(Employee):
 
     def getData(self):
 
-        print(f"Name: {self.getName()} \n Age: {self.getAge()}, \n  Basic Salary: {self.getSalary()}, \n Managerial Pay: {self.getManagerPay()}, \n Total Pay:{self.getSalary() + self.getManagerPay()}")
+        print(f"Name: {self.getName()} \n Age: {self.getAge()}, \n Basic Salary: {self.getSalary()}, \n Managerial Pay: {self.getManagerPay()}, \n Total Pay:{self.getSalary() + self.getManagerPay()}")
         
 
 
